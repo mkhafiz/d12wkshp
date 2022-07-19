@@ -27,7 +27,7 @@ public class CartController {
 
     @GetMapping("{itemname}")
     public String filteredCart(
-            @PathVariable(name = "itemname", required = true) String itemname, //pathvariable = weather/Singapore
+            @PathVariable(name = "itemname", required = true) String itemname, // pathvariable = weather/Singapore
             Model model) {
         CartService cs = new CartService();
         List<Item> cartItems = cs.getShoppingItems();
