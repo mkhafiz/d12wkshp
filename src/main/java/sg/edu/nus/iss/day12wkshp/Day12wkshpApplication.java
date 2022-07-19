@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class Day12wkshpApplication {
 
 	public static void main(String[] args) {
-		//SpringApplication.run(Day12wkshpApplication.class, args);
+		SpringApplication.run(Day12wkshpApplication.class, args);
 	
 	}
 
