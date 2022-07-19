@@ -5,21 +5,21 @@ import java.util.List;
 
 public class CartService {
 
-    public List<item> getShoppingItems() {
+    public List<Item> getShoppingItems() {
 
-        List<item> lstItems = new ArrayList<>();
+        List<Item> lstItems = new ArrayList<>();
 
-        item itm = new item();
+        Item itm = new Item();
         itm.setItemName("Bag");
         itm.setQuantity(5);
         lstItems.add(itm);
 
-        itm = new item();
+        itm = new Item();
         itm.setItemName("HP");
         itm.setQuantity(4);
         lstItems.add(itm);
 
-        itm = new item();
+        itm = new Item();
         itm.setItemName("Wallet");
         itm.setQuantity(9);
         lstItems.add(itm);
